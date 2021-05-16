@@ -1,11 +1,11 @@
 {
   "name": "@kosy/kosy-svelte-components",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Kosy svelte components for re-use in various apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "mkdirp styles && cp ./src/*.svelte . && cp -r ./src/styles/ ./styles/"
+    "build": "mkdirp styles && cp ./src/*.svelte . && cp -r ./src/styles/ ."
   },
   "repository": {
     "type": "git",
