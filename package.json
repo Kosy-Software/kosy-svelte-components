@@ -1,0 +1,21 @@
+{
+  "name": "@kosy/kosy-svelte-components",
+  "version": "0.1.0",
+  "description": "Kosy svelte components for re-use in various apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosy-Software/kosy-svelte-components.git"
+  },
+  "keywords": [
+    "Kosy"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
