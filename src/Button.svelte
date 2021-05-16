@@ -4,6 +4,7 @@
 
     export let size: ButtonSize;
     export let importance: ButtonImportance;
+    export let disabled = false;
 
     let buttonClass = "";
     $: {
@@ -158,6 +159,6 @@
     }
 </style>
 
-<button class={buttonClass} on:click on:dblclick on:focus>
+<button class={buttonClass} on:click on:dblclick on:focus disabled={disabled}>
     <slot></slot>
 </button>
