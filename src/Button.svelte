@@ -2,20 +2,15 @@
     type ButtonSize = "regular" | "small" | "floating"
     type ButtonImportance = "spotlight" | "primary" | "secondary" | "tertiary"
 
-    export let size: ButtonSize;
+    export let size: ButtonSize = "regular";
     export let importance: ButtonImportance;
     export let disabled = false;
 
     let buttonClass = "";
     $: {
-        let cssStyles = []
-        if (size) {
-            cssStyles.push("size-" + size);
-        } else {
-            cssStyles.push("size-regular");
-        }
+        let cssStyles = [ "re-button", "size-" + size ]
         if (importance) cssStyles.push("importance-" + importance);
-        buttonClass = [ "re-button", ...cssStyles ].join(" ");
+        buttonClass = cssStyles.join(" ");
     }
 </script>
 
