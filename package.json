@@ -1,6 +1,6 @@
 {
   "name": "@kosy/kosy-svelte-components",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Kosy svelte components for re-use in various apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
