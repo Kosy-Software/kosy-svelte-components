@@ -19,7 +19,7 @@
 
     .re-button {
         text-align: center;
-        border-radius: 100px;
+        border-radius: 6px;
         border: none;
         box-sizing: border-box;
         display: block;
